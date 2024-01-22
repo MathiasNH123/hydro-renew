@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436.6 121.82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 108.14px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 79.86px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: RobotoCondensed-SemiBold, 'Roboto Condensed';
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(0 92.51)"><tspan class="cls-1" x="0" y="0">H</tspan><tspan class="cls-2" x="66.58" y="0">ydro</tspan></text>
+  <text class="cls-4" transform="translate(211.15 92.51)"><tspan class="cls-1" x="0" y="0">R</tspan><tspan class="cls-3" x="59.3" y="0">enew</tspan></text>
+</svg>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/kontakt.css">
+  <link rel="stylesheet" href="css/forside.css">
+  <script src="javascript/script.js" defer></script>
+  <script src="javascript/kontakt.js" defer></script>
+  <title>Kontakt</title>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+<body>
+
+<!-- ==== NAVIGATION BAR START ==== -->
+<nav class="nav-bar">
+  <a href="index.html"><img class="header-heading" src="img/logo2.svg"></a>
+
+  <nav class="main-nav">
+    <img class="hamburger" id="hamburger" src="./img/burgerbtn.svg">
+
+    <ul class="nav-list" id="navUL">
+        <li class="nav-item">
+          <a href="shop.html" class="nav-link">Shop</a>
+        </li>
+        <li class="nav-item">
+        <a href="fakta.html" class="nav-link">Fakta</a>
+      </li>
+      <li class="nav-item">
+        <a href="omos.html" class="nav-link">Om os</a>
+      </li>
+      <li class="nav-item">
+        <a href="kontakt.html" class="nav-link">Kontakt os</a>
+      </li>
+      <img class="basket" style="width: 40px;" src="img/shopping-bag.png">
+    </ul>
+  </nav>
+</nav>
+<!-- ==== NAVIGATION BAR END ==== -->
+
+
+<!-- ==== KONTAKT START ==== -->
+
+<!-- ==== KONTAKT START ==== -->
+<section class="sec-kontakt" >
+  <h1 class="kontakt-heading">Kontakt os</h1>
+
+  <p class="kontakt-velkomst">
+  Velkommen til vores kontaktside, hvor vi ser frem til at modtage dine spørgsmål, feedback og kommentarer. Har du brug for yderligere oplysninger om vores produkter, eller vil du dele dine tanker om bæredygtighed? Vi er her for at lytte.</p>
+  
+  <h2>Kontaktformular</h2>
+  <p class="kontakt-formular">Udfyld vores kontaktformular nedenfor, og vi vil gøre vores bedste for at svare hurtigst muligt. Din mening er vigtig for os, og vi sætter pris på enhver mulighed for at forbedre vores service.</p>
+    
+  <form id="create-profil">
+    <label>Fornavn:
+        <input type="text" name="firstName" required minlength="2" maxlength="20" >
+    </label>
+
+    <label>Efternavn:
+        <input type="text" name="lastName" required minlength="2" maxlength="30">
+    </label>
+
+    <label>E-mail:
+        <input type="text" name="email" required  >
+    </label> 
+    <textarea name="review" id="review" cols="100" rows="5" placeholder="Skriv din besked her." required minlength="15" class="contact-input"></textarea>
+ 
+    <div class="newsletter">
+        <input type="checkbox" id="checkbox1" name="newsletter" value="Newsletter" style="width: 20px;">
+        <label for="checkbox1" class="checktext">Tilmeld dig vores nyhedsbrev</label>
+    </div>
+
+    <input type="submit" value="Send din besked" class="submit">
+  </form>
+
+  <div class="msg"></div>
+</section>
+<!-- ==== KONTAKT END ==== -->
+
+     
+
+<!-- ==== KONTAKT END ==== -->
+
+
+<!-- ===== FOOTER START ===== -->
+<div class="footer">
+  <div class="footer-info">
+      <img class="logo-foot" src="./img/logo2.svg" alt=""> 
+      <br />
+
+      <img class="icons" src="./img/instagram.png" alt="instagram">
+      <img class="icons" src="./img/facebook.png" alt="facebook">
+      <img class="icons" src="./img/email.png" alt="mail">
+  </div>
+
+  <div class="footer-logo">
+      <p class="footer-text">Vandvej 23, 6940 Viborg</p>
+      <br/>
+
+      <p class="footer-text">
+      Tlf.: 23 49 04 94 <br>
+      Mail: kontakt@hydrorenew.dk  </p>
+      <br />
+  </div>
+</div>
+
+</div>
+<div class="bottom-line">
+  <p class="txt-bottom">Privatpolitik og tredjepartsdata</p>
+</div>
+<!-- ===== FOOTER END ===== -->
+
+</body>
+</html>

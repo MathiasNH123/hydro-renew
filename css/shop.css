@@ -1,0 +1,101 @@
+.jpg {
+  width: 100vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.shoph1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 50px;
+  margin-left: 80px;
+}
+
+.shop1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shop2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shop-photo {
+  width:  400px;
+  height: 400px;
+  object-fit: contain;
+  border: 2px black solid;
+}
+
+.shop-photo1 {
+  width:  400px;
+  height: 400px;
+  object-fit: cover;
+  border: 2px black solid;
+}
+
+.læs-mere-btn{
+  border: none;
+  background-color: #CF9A26;
+  color: #fff;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.læs-mere-btn:hover{
+  background-color: #b98922;
+}
+
+p {
+  color: grey;
+}
+
+.hydro {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 900px) {
+ 
+  .overlay{
+    height: 60vh;
+  }
+
+  h2 {
+    margin-left: 25px;
+  }
+
+  .shop1 {
+    flex-direction: column;
+  }
+
+  .shop2 {
+    flex-direction: column;
+  }
+
+  .shop-photo {
+    width:  300px;
+    height: 300px;
+  }
+  
+  .shop-photo1 {
+    width:  300px;
+    height: 300px;
+ 
+  }
+
+}

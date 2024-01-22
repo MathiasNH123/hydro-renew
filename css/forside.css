@@ -1,0 +1,362 @@
+
+/* ==== BASE SITE CSS START ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+/* ==== BASE SITE CSS END ==== */
+
+
+/* ==== NAVIGATION BAR START ==== */
+.nav-bar {
+  background-color: #69793B;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger {
+  display: none;
+}
+
+.header-heading {
+  margin-left: 30px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.nav-list {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  list-style-type: none;
+  margin-right: 50px;
+  font-size: clamp(20px, 2vw, 25px);
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(190, 190, 190);
+}
+/* ==== NAVIGATION BAR END ==== */
+
+h1{
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 60px;
+font-weight: 400;
+}
+
+
+/* ==== FORSIDE START ==== */
+.basket {
+  cursor: pointer;
+}
+
+.forside-billede{
+  width: 100%;
+  overflow: hidden;
+}
+.forside-img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  
+}
+
+p{
+  font-family: 'Roboto', sans-serif;;
+  padding: 10px 0px;
+}
+
+.p-tag {
+  margin-bottom: 20px;
+}
+
+.grøn-verden{
+  margin: 30px 40px;
+  padding: 10px 0;
+}
+
+.læs-mere-btn{
+  border: none;
+  background-color: #CF9A26;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px;
+}
+
+.læs-mere-btn:hover{
+  background-color: #b98922;
+}
+
+.anmeldelser article{
+  color: black;
+  display: flex; 
+  gap: 10px;
+  background-color: white;
+  width: fit-content;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  padding: 30px 0;
+}
+
+.back{
+  background-color: rgba(152, 162, 84, 0.32);
+}
+
+.anmeldelser{
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.anmeldelser-h2{
+  padding: 30px;
+  margin-left: 20px;
+}
+
+.rate{
+  padding-top: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+.review {
+  max-width: 600px;
+  margin: 20px 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  background-color: #fff;
+}
+/* ==== FORSIDE END ==== */
+
+
+  /* ===== FOOTER START  ===== */
+.footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.footer-info {
+    background-color: #69793B;
+    color: white;
+    padding: 50px;
+}
+
+.logo-foot{
+    width: 300px;
+    height: auto;    
+}
+    
+.icons{
+    height: 30px;
+    margin-left: 4px;
+}
+
+.footer-logo{
+    background-color: #69793B;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    padding: 60px 0;
+}
+
+.footer-text{
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 350px;
+}
+
+.bottom-line{
+    background-color: #69793B;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.txt-bottom{
+color:white;
+font-weight: 300;
+
+}
+
+
+/* ===== FOOTER END  ===== */
+/* ==== FOOTER END ==== */
+
+
+/* ==== RESPONSIVE CSS START ==== */
+@media screen and (max-width: 900px) {
+
+/* BURGER MENU */
+  .header-heading {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+    
+  .nav-list.show {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin-right: 0px;
+    right: 0px;
+    top: 88px;
+    background-color: #69793B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    list-style-type: none;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+  }
+
+  .nav-bar {
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    
+  ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+    
+  .hamburger {
+    display: block;
+    margin-top: 0.5px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .hamburger.active {
+    transform: rotate(90deg);
+  }
+
+  /* fonte */
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+  /* FORSIDE */
+  .læs-mere-btn{
+    width: 100%;
+   }
+
+
+
+  .overlay {
+    top: 15%;
+    left: 10%;
+    font-size: 15px;
+    color: white;
+  }
+
+  /* FOOTER */
+  .footer-logo{
+    padding: 50px 10px;       
+    font-size: 12px;
+}
+
+ .footer-text{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.logo-foot{
+  width: 130px;
+}
+        
+.icons{
+    height: 20px;
+    margin-left: 15px;
+}
+        
+.bottom-line{
+    background-color: #69793B;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}    
+
+.txt-bottom {
+  font-size: 12px;
+}
+
+.læs-mere-btn{
+  border: none;
+  background-color: #CF9A26;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+/* ==== RESPONSIVE CSS END ==== */

@@ -1,0 +1,109 @@
+.sec-kontakt {
+margin-left: 6%;  
+margin-right: 6%;}
+
+  h1{
+    margin-left: 6%;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-left: 6%;
+}
+
+.kontakt-velkomst {
+    margin-bottom: 20px;
+    margin-left: 6%;
+    margin-right: 1%;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 6%;
+}
+
+.kontakt-formular {
+    margin-bottom: 20px;
+    margin-left: 6%;
+}
+label{
+  margin-left: 15%;
+}
+  
+  input, textarea {
+    display: block;
+    width: 70%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    margin-left: 15%;
+  }
+  
+  input {
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+  }
+  
+  input[type="submit"] {
+    border: none;
+    background-color: #CF9A26;
+    font-weight: 500;
+    color: #fff;
+    line-height: 0;
+    cursor: pointer;
+    width: 70%;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 50px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a97d1f;
+  }
+  
+  .newsletter {
+    display: flex;
+  }
+  
+  .checktext {
+    margin-left: 18px;
+    margin-top: 6px;
+  }
+
+  .msg {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color:#000000;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+
+/* ==== RESPONSIVE CSS START ==== */
+@media screen and (max-width: 900px) {
+
+  h1{
+margin-top: 50px;
+  }
+
+  .sec-kontakt {
+    margin: 7px;
+  }
+
+
+}
+

@@ -1,0 +1,327 @@
+/* ==== BASE SITE CSS START ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+/* ==== BASE SITE CSS END ==== */
+  
+  
+/* ==== NAVIGATION BAR START ==== */
+  .nav-bar {
+    background-color: #69793B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .header-heading {
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    list-style-type: none;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .nav-link {
+    padding: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: rgb(190, 190, 190);
+  }
+/* ==== NAVIGATION BAR END ==== */
+
+
+/* ==== HERO START ==== */
+  .hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 90vh;
+}
+
+.hero-head {
+    background-color: #87BBD0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 30px;     
+}
+
+.hero-text {
+    display: flex; 
+    font-weight: 400;
+    padding: 40px;
+    margin-top: 240px;
+}
+
+.pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.pic-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+/* ==== HERO END ==== */
+  
+  
+/* ==== CONTENT START ==== */
+.content {
+    display: flex;
+}
+
+  h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;;
+    padding: 10px 0px;
+  }
+  
+  .miljø-txt{
+    margin: 80px 40px;
+  }
+
+  .pic-miljø {
+    width: auto;
+    height: 400px;
+    padding: 30px;
+  }
+
+  .content-2{
+    background-color: rgba(152, 162, 84, 0.32);
+    display: flex;
+  }
+
+  .pic-flaske{
+    width: auto;
+    height: 400px;
+    padding: 30px;
+  }
+
+  .facts {
+    padding: 40px;
+  }
+  .flaske-txt{
+    margin: 80px 40px;
+  }
+/* ==== CONTENT END ==== */
+  
+  
+/* ===== FOOTER START  ===== */
+  .footer{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+  }
+  
+  .footer-info {
+      background-color: #69793B;
+      color: white;
+      padding: 50px;
+  }
+  
+  .logo-foot{
+      width: 300px;
+      height: auto;    
+  }
+      
+  .icons{
+      height: 30px;
+      margin-left: 4px;
+  }
+  
+  .footer-logo{
+      background-color: #69793B;
+      font-weight: 300;
+      font-size: 10px;
+      color: white;
+      padding: 60px 0;
+  }
+  
+  .footer-text{
+      font-weight: 300;
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      margin-left: 350px;
+  }
+  
+  .bottom-line{
+      background-color: #69793B;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+  }
+  
+  .txt-bottom{
+  color:white;
+  font-weight: 300;
+  }
+/* ==== FOOTER END ==== */
+  
+  
+/* ==== RESPONSIVE CSS START ==== */
+  @media screen and (max-width: 900px) {
+  
+  /* BURGER MENU */
+  
+    .header-heading {
+      width: 200px;
+      margin-top: 10px;
+    }
+    .nav-list {
+      display: none;
+    }
+      
+    .nav-list.show {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      margin-right: 0px;
+      right: 0px;
+      top: 88px;
+      background-color: #69793B;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 25px;
+      list-style-type: none;
+      transition: all 0.2s ease-in-out;
+    }
+  
+    .nav-bar {
+      height: 90px;
+      width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+      
+    ul li a {
+      display: inline-block;
+      text-decoration: none;
+    }
+      
+    .hamburger {
+      display: block;
+      margin-top: 0.5px;
+      margin-right: 20px;
+      background-color: transparent;
+      border: 0;
+      width: 30px;
+      cursor: pointer;
+    }
+
+    .footer-logo{
+      padding: 50px 10px;       
+       font-size: 12px;
+  }
+  
+  .footer-text{
+      font-size: 12px;
+      margin-left: 10px;
+  }
+  
+  .logo-foot{
+      width: 130px;
+  }
+          
+  .icons{
+      height: 20px;
+      margin-left: 15px;
+  }
+          
+  .bottom-line{
+      background-color: #69793B;
+      width: 100%;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+  }    
+  
+  .txt-bottom {
+      font-size: 12px;
+  }
+
+  /* ==== RESPONSIVE CSS TIL FAKTA SIDE ==== */
+  .hero {
+    height: 60vh;
+}
+
+.hero-head {
+    font-size: 20px;     
+}
+
+.hero-text {
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.miljø-txt{
+    margin: 40px 40px;
+  }
+
+  .pic-miljø {
+    width: auto;
+    height: 400px;
+    padding: 20px;    
+  }
+
+  .content-2{
+flex-direction: column;
+justify-content: center;   
+align-items: center;   }
+
+  .pic-flaske{
+    width: 450px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .flaske-txt{
+    margin: 10px 40px;
+    margin-bottom: 20px;
+  }
+  }
+  /* ==== RESPONSIVE CSS END ==== */
+
+
+    
+    

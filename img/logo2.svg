@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 521.26 121.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c6e5f5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #88bbd0;
+      }
+
+      .cls-3 {
+        font-size: 108.14px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 79.86px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        font-family: RobotoCondensed-SemiBold, 'Roboto Condensed';
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <text class="cls-6" transform="translate(84.66 92.51)"><tspan class="cls-3" x="0" y="0">H</tspan><tspan class="cls-4" x="66.58" y="0">ydro</tspan></text>
+    <text class="cls-6" transform="translate(295.81 92.51)"><tspan class="cls-3" x="0" y="0">R</tspan><tspan class="cls-5" x="59.3" y="0">enew</tspan></text>
+  </g>
+  <g>
+    <path class="cls-2" d="m71.96,42.82c-4.06-9.89-7.27-26.36-7.1-28.33,0-.06,0-.11.01-.16,0-.07,0-.14,0-.21,0,0,0,0,0,0-.02-.14-.04-.28-.03-.42-.19-1.52-1.13-3.21.29-12.87,0,0-27.74,13.37-39.15,24.5C14.58,36.44,4.5,45.77.96,62.53c-3.54,16.76,2.87,33.61,15.87,42.05,12.99,8.43,37.68,5.27,45.29-2.43,7.58-7.67,13.35-12.57,15.28-33.3,0-.12,0-.23,0-.35-.16-1.71-1.63-16.38-5.45-25.69Z"/>
+    <path class="cls-1" d="m8.96,72.83h0c3.28-3.23,7.15,4.53,10.38,7.81l8.15,7.04c3.23,3.28,11.27,8.83,8,12.07h0c-3.28,3.23-8.47,5.29-11.7,2.01l-9.26-7.78-7.04-8.89c-3.74-3.96-1.84-9.08,1.47-12.25Z"/>
+  </g>
+</svg>
